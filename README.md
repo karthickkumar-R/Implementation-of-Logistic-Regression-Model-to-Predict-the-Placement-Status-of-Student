@@ -32,9 +32,8 @@ step 8. End
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: KARTHICKKUMAR R
-RegisterNumber:212223040087  
-*/
-```
+RegisterNumber:212223040087
+
 import pandas as pd
 data=pd.read_csv("/content/Placement_Data.csv")
 data.head()
@@ -75,6 +74,9 @@ from sklearn.metrics import classification_report
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
+*/
+```
+
 
 ## Output:
 ![Screenshot 2024-09-15 205018](https://github.com/user-attachments/assets/6d01e522-6fee-4738-acaf-91a538a17fe0)
